@@ -50,6 +50,9 @@ class User(AbstractUser):
 
 
 class Book(models.Model):
+    """
+    Модель книг.
+    """
     title = models.CharField(
         "Название книги",
         max_length=255,
