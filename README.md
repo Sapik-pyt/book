@@ -20,6 +20,7 @@ Python 3.9, Django 3.2, Django REST Framework 3.12.0, PostgresQL 15.0, Djoser.
 ```
 5.Заменить файл env.example на .env и заполнить поля
 ```
+```
 # settings.py
 SECRET_KEY='<secret_key>'      # стандартный ключ, который создается при старте проекта
 ENGINE=django.db.backends.postgresql
